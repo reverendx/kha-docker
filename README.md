@@ -17,7 +17,15 @@ _Kali Linux Docker Image ready to do some **hacking**!!_
 * nmap, nikto, sublist3r, hydra, john the ripper, exploitdb, metasploit, searchsploit, ffuf, wfuzz, dnsrecon, enum4linux
 ```
 
+## **Added** a simple zsh shell upgrade docker image
+_DISCLAIMER: THIS CHANGE WILL ONLY APPLY TO ROOT USER_
 
+### **Installation** from the command line:
+>_$ docker pull ghcr.io/reverendx/zsh-docker:latest_
+### Or use it as a base image in Dockerfile:
+>_FROM ghcr.io/reverendx/zsh-docker:latest_
+
+### TO DO: mix them both into a single image.
 
 
 
